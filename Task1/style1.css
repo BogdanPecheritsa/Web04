@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+}
+
+p {
+    color: red;
+    text-align: center;
+}
+
+.main-list > li > a {
+    color: green;
+}
+
+.main-list ul li {
+    list-style-type: none;
+}
+
+.main-list ul {
+    list-style-type: none;
+}
+
+.main-list > li:last-child li {
+    list-style-type: square;
+    text-decoration: none;
+}
+
+.main-list > li:last-child li a {
+    text-decoration: none;
+}
+
+.green {
+    color: green;
+}
+
+#pink {
+    color: pink;
+}
+
+a {
+    display: block;
+    color: red;
+}
+
+li a {
+    color: pink;
+}
