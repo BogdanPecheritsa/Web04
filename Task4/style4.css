@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    gap: 100px;
+    padding: 30px;
+}
+
+li:nth-child(odd):hover {
+    list-style-type: none;
+    background-color: #6184C6;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+ol {
+    margin-left: 30px;
+}
