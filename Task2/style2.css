@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+}
+
+h3 + p {
+    font-size: 20px;
+}
+
+p code {
+    color: red;
+}
+
+p + code {
+    color: pink
+}
+
+.center {
+    text-align: center;
+}
+
+.neighboring-selector li:hover + li {
+    background-color: yellow;
+}
+
+.general-neighboring-selector li:hover ~ li {
+    background-color: yellow;
+}
