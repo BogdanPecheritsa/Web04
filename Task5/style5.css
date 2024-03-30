@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+a[target="_blank"]:hover {
+    text-decoration: none;
+    color: red;
+}
+
+a[target="_blank"]:hover:after {
+    content: " open in new window";
+    font-size: 0.8rem;
+    color: gray;
+}
