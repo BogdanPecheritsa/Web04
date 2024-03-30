@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+}
+
+p:nth-child(even){
+    color: green;
+    margin-top:  5px;
+    margin-bottom: 5px;
+}
+p:nth-child(odd)::first-letter{
+    color:red;
+}
